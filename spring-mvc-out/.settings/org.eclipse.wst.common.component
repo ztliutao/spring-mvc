@@ -3,22 +3,10 @@
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         <wb-resource deploy-path="/" source-path="/src/main/webapp"/>
-        <dependent-module archiveName="spring-mvc-common.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/spring-mvc-common/spring-mvc-common">
+        <dependent-module archiveName="spring-mvc-service-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/spring-mvc-service/spring-mvc-service">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="spring-mvc-generator.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/spring-mvc-generator/spring-mvc-generator">
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
-        <dependent-module archiveName="spring-mvc-servlet.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/spring-mvc-servlet/spring-mvc-servlet">
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
-        <dependent-module archiveName="spring-mvc.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/spring-mvc/spring-mvc">
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
-        <dependent-module archiveName="spring-mvc-dao.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/spring-mvc-dao/spring-mvc-dao">
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
-        <dependent-module archiveName="spring-mvc-service.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/spring-mvc-service/spring-mvc-service">
+        <dependent-module archiveName="spring-mvc-dao-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/spring-mvc-dao/spring-mvc-dao">
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <property name="context-root" value="spring-mvc-out"/>
